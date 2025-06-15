@@ -39,6 +39,12 @@ if (answer == 5) {
 if(mousePressed){
 text("Ask a question",random (0,600),random(0,400));
 }
+
+
+
+ellipse(mouseX ,mouseY ,40, 40)
+
+
 };
 //Example Function Call
 //drawTropicalFish(100, 100);
